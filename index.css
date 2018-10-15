@@ -1,12 +1,14 @@
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 .f{
     /* The image used */
     background-image: url(img/f_vac.jpg);
-
+ 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 600px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -17,11 +19,11 @@
 .wil{
     /* The image used */
     background-image: url(img/wild.jpg);
-    
+ 
     /* Set a specific height */
     min-height: 500px; 
 
-
+     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -31,7 +33,8 @@
 
 
 
-.r{
+
+ .r{
     /* The image used */
     background-image: url(img/rom.jpg);
 
@@ -87,26 +90,26 @@
 
 
 .bea{
-    /* The image used */
+    
     background-image: url(img/bea.jpg);
 
-    /* Set a specific height */
+   
     min-height: 500px; 
 
-    /* Create the parallax scrolling effect */
+   
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .adv{
-    /* The image used */
+ 
     background-image: url(img/yo.jpg);
 
-    /* Set a specific height */
-    min-height: 400px; 
+    
+    min-height: 500px; 
 
-    /* Create the parallax scrolling effect */
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,9 +118,9 @@
 
 
 .button {
-    background-color: white;
+    background-color: black;
     border: none;
-    color: black;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -135,8 +138,8 @@
 
 
 .button3 {
-    background-color: white; 
-    color: black; 
+    background-color: black; 
+    color: white; 
     border: 2px solid #f44336;
 
 
@@ -158,5 +161,49 @@ font-size: 5rem;
 font-family: neon;
 }
 
+ .header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
 
+#navbar {
+
+  overflow: hidden;
+  background-color: black;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: red;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
 
