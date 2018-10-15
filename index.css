@@ -4,27 +4,27 @@ html {
 
 
 .f{
-    /* The image used */
+    
     background-image: url(img/f_vac.jpg);
  
-    /* Set a specific height */
+    
     min-height: 600px; 
 
-    /* Create the parallax scrolling effect */
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .wil{
-    /* The image used */
+  
     background-image: url(img/wild.jpg);
  
-    /* Set a specific height */
-    min-height: 500px; 
+    
+    min-height: 600px; 
 
      
-    /* Create the parallax scrolling effect */
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,39 +35,39 @@ html {
 
 
  .r{
-    /* The image used */
+   
     background-image: url(img/rom.jpg);
 
-    /* Set a specific height */
-    min-height: 500px; 
+   
+    min-height: 600px; 
 
-    /* Create the parallax scrolling effect */
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .l{
-    /* The image used */
+   
     background-image: url(img/leis.jpg);
 
-    /* Set a specific height */
-    min-height: 500px; 
+    
+    min-height: 600px; 
 
-    /* Create the parallax scrolling effect */
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .m{
-    /* The image used */
+    
     background-image: url(img/mon.jpg);
 
-    /* Set a specific height */
-    min-height: 500px; 
+  
+    min-height: 600px; 
 
-    /* Create the parallax scrolling effect */
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,13 +75,13 @@ html {
 }
 
 .her{
-    /* The image used */
+    
     background-image: url(img/heritage.jpg);
 
-    /* Set a specific height */
-    min-height: 500px; 
+   
+    min-height: 600px; 
 
-    /* Create the parallax scrolling effect */
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@ html {
     background-image: url(img/bea.jpg);
 
    
-    min-height: 500px; 
+    min-height: 600px; 
 
    
     background-attachment: fixed;
@@ -107,7 +107,7 @@ html {
     background-image: url(img/yo.jpg);
 
     
-    min-height: 500px; 
+    min-height: 600px; 
 
 
     background-attachment: fixed;
