@@ -101,10 +101,10 @@
 }
 .adv{
     /* The image used */
-    background-image: url(img/adv.jpg);
+    background-image: url(img/yo.jpg);
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 400px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
