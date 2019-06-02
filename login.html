@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="login.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+</head>
+<body>
+	<form method="POST" action="login.php">
+	 <div class="login-box">
+	 	<h1> Login </h1>
+	 	<div class="textbox">
+	 		<i class="fas fa-user"></i>
+	 		<input type="email" name="email" id="email" placeholder="Email" class="form-control" required>
+	 	</div>
+	 	<div class="textbox">
+	 		<i class="fas fa-lock"></i>
+	 		<input type="password" name="password" id="password" placeholder="Password" class="form-control" required>
+		 </div>
+		<div class="not-a-user">
+			Not a user yet? 
+			<a href="registration.html">Register</a>
+		</div>
+	 	<input class ="btn" type="submit" value="Log In" name="submit">
+	 </div>
+	</form>
+</body>
+</html>
