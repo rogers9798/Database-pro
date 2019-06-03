@@ -13,7 +13,7 @@
 
 		
 <header id="header">
-				<a class="logo" href="index.html">Travel Guide</a>
+				<a class="logo" href="index.php">Travel Guide</a>
 
 		
 	<form autocomplete="on" method="POST" action="launch/test.php">
